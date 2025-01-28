@@ -12,6 +12,7 @@ body {
     background-color: hsl(212, 45%, 89%);
     font-family: "Outfit", serif;
     display: flex;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -57,6 +58,7 @@ p {
     font-size: 11px;
     text-align: center;
     margin-bottom: 0.5rem;
+    margin-top: 4rem;
 }
 
 .attribution a {
